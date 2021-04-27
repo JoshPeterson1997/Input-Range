@@ -11,10 +11,28 @@
 
     <link rel="stylesheet" href="style.css" />
 
-    <title>Frontend Starter</title>
+    <title>Input-Range</title>
   </head>
   <body>
-    <h1>Frontend Starter</h1>
+    <h1>Input-Range</h1>
+
+    <form>
+      <label for="Input" class="screen-reader-text">Add a Input</label>
+      <input type="text" id="Input" />
+      <button type="Range" class="button button--jumbo">Move Range</button>
+    </form>
+
+    <div>
+      <input type="range" id="min-price" name="min-price" min="0" max="10" />
+      <label for="max-price">Volume</label>
+    </div>
+
+    <div>
+      <input type="range" id="max-price" name="max-price" min="0" max="10" />
+      <label for="min-Price">Min-Price</label>
+    </div>
+
+    <input type="color" name="" id="" />
     <script src="./scripts.js" type="module"></script>
   </body>
 </html>
