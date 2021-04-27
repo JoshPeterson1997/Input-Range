@@ -4,7 +4,6 @@ body {
   font-size: 10px;
 }
 
-/* Utility Classes */
 .button {
   background-color: green;
   border: none;
@@ -14,7 +13,6 @@ body {
   padding: 8px;
 }
 
-/* The `--` conveys that this is a modifier class intended for use with `.button` */
 .button--jumbo {
   font-size: 1.5rem;
   font-weight: bold;
@@ -63,7 +61,6 @@ body {
   text-align: center;
 }
 
-/* CSS Tricks */
 .screen-reader-text {
   left: -9999px;
   position: absolute;
